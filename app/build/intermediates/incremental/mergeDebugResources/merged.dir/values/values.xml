@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrays_enhance">
+        <item>@string/a_label_auto</item>
+        <item>@string/a_label_none_enhance</item>
+        <item>@string/a_label_enhance</item>
+        <item>@string/a_label_enhance_sharp</item>
+        <item>@string/a_label_gray</item>
+        <item>@string/a_label_white_black</item>
+    </string-array>
+    <string-array name="arrays_img_type">
+        <item>@string/a_label_img_jpg</item>
+        <item>@string/a_label_img_png</item>
+        <item>@string/a_label_img_jpeg</item>
+        
+    </string-array>
+    <color name="cui_list_selector_normal">#00000000</color>
+    <color name="cui_list_selector_pressed">#FF4B5D70</color>
+    <color name="fill_color">#5a00ff00</color>
+    <color name="stroke_color">#ff00ff00</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="highlight_point_diameter">30dip</dimen>
+    <dimen name="line_trimview_strokewidth">1dp</dimen>
+    <string name="a_label_add_image">add jpg or png image</string>
+    <string name="a_label_add_image_from_camera">take picture</string>
+    <string name="a_label_auto">Auto</string>
+    <string name="a_label_back">Back</string>
+    <string name="a_label_cancel">Cancel</string>
+    <string name="a_label_enhance">Enhance</string>
+    <string name="a_label_enhance_sharp">Enhance and Magic</string>
+    <string name="a_label_gray">Gray</string>
+    <string name="a_label_none_enhance">No Enhance</string>
+    <string name="a_label_ok">OK</string>
+    <string name="a_label_open">Open</string>
+    <string name="a_label_save">Save</string>
+    <string name="a_label_trim_image">Crop</string>
+    <string name="a_label_white_black">black-and-white</string>
+    <string name="a_msg_copyright">Powered by IntSig</string>
+    <string name="a_msg_illegal">Illegal Image!</string>
+    <string name="a_msg_limit">Support .jpg and .png</string>
+    <string name="a_msg_not_available_application">App is not Available</string>
+    <string name="a_msg_working">Processing...</string>
+    <string name="app_name">ImageCrop&amp;Enhance</string>
+    <string name="bound_trim_error">Crop area is invalid, pleae try again!</string>
+    <string name="cui_a_msg_empty_tips">Please Choose Camera Or Gallery Recognition</string>
+    <string name="cui_app_title">Image Crop &amp; Enhance recognition</string>
+    <string name="cui_dl_tips_pick_photo">Gallery</string>
+    <string name="cui_dl_tips_take_photo">Camera</string>
+    <string name="cui_welcome_module_title">ImageCrop&amp;EnhanceV1.0</string>
+    <string name="cui_welcome_title">IntSig Information Intelligence Systiem</string>
+    <string name="intsig_copyright">IntSig Information Co.,Ltd.\n© 2009-2017 Intsig. All Rights Reserved.</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="cui_anim_scenicchoose">  
+       <item name="android:windowNoTitle">true</item>  
+    
+ </style>
+    <style name="cui_buttonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@drawable/cui_list_selector_bg</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+    </style>
+</resources>

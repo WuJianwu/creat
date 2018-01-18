@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrays_enhance">
+        <item>@string/a_label_auto</item>
+        <item >@string/a_label_none_enhance</item>
+        <item >@string/a_label_enhance</item>
+        <item >@string/a_label_enhance_sharp</item>
+        <item >@string/a_label_gray</item>
+        <item >@string/a_label_white_black</item>
+    </string-array>
+    
+     <string-array name="arrays_img_type">
+        <item>@string/a_label_img_jpg</item>
+        <item >@string/a_label_img_png</item>
+        <item >@string/a_label_img_jpeg</item>
+        
+    </string-array>
+</resources>

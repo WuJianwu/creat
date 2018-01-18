@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_close_normal.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_normal.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_close_click.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cui_welcome_icon.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\cui_welcome_icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_ok_normal.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_ok_normal.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_gallery.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_gallery.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_ok_click.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_ok_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_takephoto_click.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_takephoto_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_camera.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_camera.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_takephoto_normal.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-xhdpi\\ic_takephoto_normal.png"
+    }
+]

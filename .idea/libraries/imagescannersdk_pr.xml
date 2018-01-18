@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="imagescannersdk_pr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/imagescannersdk_pr.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageCrop&amp;Enhance</string>
+    <string name="a_label_auto">Auto</string>
+    <string name="a_label_none_enhance">No Enhance</string>
+    <string name="a_label_enhance">Enhance</string>
+    <string name="a_label_trim_image">Crop</string>
+    <string name="a_label_enhance_sharp">Enhance and Magic</string>
+    <string name="a_label_gray">Gray</string>
+    <string name="a_label_white_black">black-and-white</string>
+    <string name="a_msg_working">Processing...</string>
+    <string name="a_label_back">Back</string>
+    <string name="a_label_add_image">add jpg or png image</string>
+    <string name="a_label_save">Save</string>
+    <string name="a_label_ok">OK</string>
+    <string name="a_label_cancel">Cancel</string>
+    <string name="a_label_open">Open</string>
+    <string name="a_msg_illegal">Illegal Image!</string>
+    <string name="a_msg_not_available_application">App is not Available</string>
+    <string name="a_msg_limit">Support .jpg and .png</string>
+    <string name="a_msg_copyright">Powered by IntSig</string>
+    <string name="bound_trim_error">Crop area is invalid, pleae try again!</string>
+        <string name="a_label_add_image_from_camera">take picture</string>
+        
+          <string name="cui_app_title">Image Crop &amp; Enhance recognition</string>
+    <string name="cui_dl_tips_take_photo">Camera</string>
+    <string name="cui_dl_tips_pick_photo">Gallery</string>
+    <string name="cui_a_msg_empty_tips">Please Choose Camera Or Gallery Recognition</string>
+        
+    
+        
+        <string name="intsig_copyright">IntSig Information Co.,Ltd.\n© 2009-2017 Intsig. All Rights Reserved.</string>
+    
+          <string name="cui_welcome_title">IntSig Information Intelligence Systiem</string>
+    <string name="cui_welcome_module_title">ImageCrop&amp;EnhanceV1.0</string>
+</resources>

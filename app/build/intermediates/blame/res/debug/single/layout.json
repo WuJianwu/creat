@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_checked_text.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\layout\\spinner_checked_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cui_welcome_activity.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\layout\\cui_welcome_activity.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ac_scanner.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\layout\\ac_scanner.xml"
+    }
+]

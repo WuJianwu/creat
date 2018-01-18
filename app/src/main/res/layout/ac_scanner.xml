@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_add_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/cui_app_title"
+            android:textColor="#999999"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="20dp"
+                android:drawableTop="@drawable/cui_state_blank"
+                android:paddingBottom="100dp"
+                android:text="@string/cui_a_msg_empty_tips"
+                android:textColor="#ff999999"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="17dp"
+                android:drawableLeft="@drawable/cui_ic_logo"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="@string/intsig_copyright"
+                android:textColor="#ffacacac"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ff18b8f5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/bt_add_from_camera"
+                style="@style/cui_buttonStyle"
+                android:drawableTop="@drawable/ic_camera"
+                android:text="@string/cui_dl_tips_take_photo" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#68ffffff" />
+
+            <TextView
+                android:id="@+id/bt_add"
+                style="@style/cui_buttonStyle"
+                android:drawableTop="@drawable/ic_gallery"
+                android:text="@string/cui_dl_tips_pick_photo" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/take_photo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <com.intsig.imageprocessdemo.CameraSurfaceView
+            android:id="@+id/cameraPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!--
+            <View
+            android:id="@+id/view_focus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:background="@null"/>
+        -->
+
+
+        <!--
+        网格参考线
+        <com.intsig.imageprocessdemo.ReferenceLine
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="#45e0e0e0"
+            android:lineSpacingMultiplier="2.0"
+            android:text="请横屏拍照\n题目文字尽量与参考线对齐"/>
+        -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#00000000"
+            android:padding="12dp" >
+
+            <ImageView
+                android:id="@+id/close_photo_id"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:onClick="close"
+                android:padding="12dp"
+                android:src="@drawable/ic_close_selector" />
+
+            <ImageView
+                android:id="@+id/take_photo_id"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_centerInParent="true"
+                android:onClick="takePhoto"
+                android:padding="12dp"
+                android:src="@drawable/ic_takephoto_selector" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_trim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/bt_back_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:text="@string/a_label_back"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/bt_enhance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="@string/a_label_trim_image"
+            android:textSize="18dp" />
+
+        <com.intsig.view.ImageEditView
+            android:id="@+id/iv_trim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bt_back_add" >
+        </com.intsig.view.ImageEditView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_enhance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <Spinner
+            android:id="@+id/sp_enhance_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_spinner_selector" />
+
+        <Spinner
+            android:id="@+id/sp_img_type_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sp_enhance_mode"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_spinner_selector" />
+
+        <Button
+            android:id="@+id/bt_back_trim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:text="@string/a_label_back"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="@string/a_label_save"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/iv_enhance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bt_back_trim"
+            android:layout_below="@id/sp_img_type_mode"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stroke_color">#ff00ff00</color>
+    <color name="fill_color">#5a00ff00</color>
+    <color name="cui_list_selector_normal">#00000000</color>
+    <color name="cui_list_selector_pressed">#FF4B5D70</color>
+</resources>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cui_ic_logo.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-hdpi\\cui_ic_logo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_spinner_white.9.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-hdpi\\bg_spinner_white.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cui_state_blank.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-hdpi\\cui_state_blank.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_spinner.9.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-hdpi\\bg_spinner.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    }
+]

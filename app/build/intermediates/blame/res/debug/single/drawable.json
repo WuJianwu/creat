@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cui_list_selector_bg.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\cui_list_selector_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_spinner_selector.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\bg_spinner_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\bg_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dragpoint.png",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\dragpoint.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cui_wel_bg.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\cui_wel_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_normal.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\bg_btn_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_close_selector.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\ic_close_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_takephoto_selector.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\ic_takephoto_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_pressed.xml",
+        "source": "E:\\AndroidStudioWork\\ImageScannerDemo_svn\\app\\src\\main\\res\\drawable\\bg_btn_pressed.xml"
+    }
+]

@@ -1,0 +1,2 @@
+依赖库：
+ImageScannerSDK  http://192.168.19.254/svn/Andr_ShareLibrary/branches/ImageScannerSDK

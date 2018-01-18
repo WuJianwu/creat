@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">图像切边及增强</string>
+    <string name="a_label_auto">自动</string>
+    <string name="a_label_none_enhance">原图</string>
+    <string name="a_label_enhance">增强</string>
+    <string name="a_label_trim_image">切边</string>
+    <string name="a_label_enhance_sharp">增强并锐化</string>
+    <string name="a_label_gray">灰度模式</string>
+    <string name="a_label_white_black">黑白模式</string>
+    <string name="a_msg_working">处理中...</string>
+    <string name="a_label_back">返回</string>
+    <string name="a_label_add_image">添加jpg 或  png图片</string>
+    <string name="a_label_save">保存</string>
+    <string name="a_label_ok">确定</string>
+    <string name="a_label_cancel">取消</string>
+    <string name="a_label_open">打开</string>
+    <string name="a_msg_illegal">非法图片！</string>
+    <string name="a_msg_not_available_application">没有找到支持的应用</string>
+    <string name="a_msg_limit">只支持jpg 和 png格式的图片。</string>
+    <string name="a_msg_copyright">上海合合信息科技发展有限公司 \nCopyright © 版权所有</string>
+    <string name="bound_trim_error">切边区域不合法，请重新调整切边区域</string>
+    
+    
+    
+     <string name="a_label_img_jpg">jpg</string>
+    <string name="a_label_img_png">png</string>
+    <string name="a_label_img_jpeg">jpeg</string>
+  
+    
+    
+         <string name="cui_welcome_title">合 合 信 息 智 能 识 别 系 统</string>
+    <string name="cui_welcome_module_title">图像切边及增强V1.0</string>
+          <string name="a_label_gallery">选图识别</string>
+    <string name="a_label_captrue">拍照识别</string>
+        <string name="intsig_copyright">上海合合信息科技发展有限公司\n Copyright© 2009-2017 版权所有</string>
+    
+          <string name="cui_app_title">图像切边及增强</string>
+      <string name="cui_dl_tips_take_photo">拍照识别</string>
+    <string name="cui_dl_tips_pick_photo">选图识别</string>
+        <string name="cui_a_msg_empty_tips">请先拍照或者选图来识别</string>
+</resources>
